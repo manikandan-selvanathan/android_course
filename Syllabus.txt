@@ -1,0 +1,223 @@
+Basics of Android
+
+	What is Android 
+	History and Version 
+	Installing softwares 
+	Setup Android Studio
+	Hello Android example 
+	Internal Details 
+	Dalvik VM 
+	Software Stack 
+	Android Core Building Blocks 
+	Android Emulator 
+	AndroidManifest.xml  
+	Screen Orientation 
+
+UI Widgets
+
+	Working with Button 
+	Toast 
+	Custom Toast 
+	Button 
+	Toggle Button 
+	Switch Button 
+	Image Button 
+	CheckBox 
+	AlertDialog 
+	Spinner 
+	AutoCompleteTextView 
+	RatingBar 
+	DatePicker 
+	TimePicker 
+	ProgressBar 
+	Quick Contact Budge 
+	Analog Clock and Digital Clock 
+	Working with hardware Button 
+	File Download 
+
+Activity, Intent & Fragment
+
+	Activity Lifecycle 
+	Activity Example 
+	Implicit Intent 
+	Explicit Intent 
+	Fragment Lifecycle 
+	Fragment Example 
+	Dynamic Fragment 
+
+Android Menu
+
+	Option Menu 
+	Context Menu 
+	Popup Menu 
+
+Layout Manager
+
+	Relative Layout 
+	Linear Layout 
+	Table Layout 
+	Grid Layout 
+
+Adaptor
+
+	Array Adaptor 
+	ArrayList Adaptor 
+	Base Adaptor 
+
+View
+
+	GridView 
+	WebView 
+	ScrollView 
+	SearchView 
+	TabHost 
+	DynamicListView 
+	ExpandedListView
+
+Advance Android
+
+
+
+
+Android Service
+
+	Android Service 
+	Android Service API 
+	Android Started Service 
+	Android Bound Service 
+	Android Service Life Cycle 
+	Android Service Example 
+Data Storage
+
+	Shared Preferences 
+	Internal Storage 
+	External Storage 
+
+SQLite
+
+	SQLite API 
+	SQLite Spinner 
+	SQLite ListView 
+
+XML & JSON
+
+	XML Parsing SAX 
+	XML Parsing DOM 
+	XML Pull Parser 
+	JSON Parsing 
+
+Cotent Provider
+
+	Content Proivider Fundamental 
+	Contact Content Provider 
+	Other Built-in Content Providers 
+	Creating Custom Content Provider 
+	Understanding Content URI 
+	ContentResolver 
+	Sharing Information from custom content provider 
+
+Android Notification
+
+	Notification API 
+	Creating Notification Builder 
+	Setting Notification Properties 
+	Attaching Actions 
+	Issuing Notification 
+	NotificationCompat.Builder class 
+	Android Notification Examples 
+
+Multimedia
+
+	Wallpapaer 
+	Live Wallpaper 
+	Multimedia API 
+	Playing Audio 
+	Creating Audio Player 
+	Playing Video 
+	Alarm Manager 
+	Gallery 
+
+Speech API
+
+	TextToSpeech API 
+	TextToSpeech Example 
+	Managing speed and pitch 
+	Speech To Text 
+
+Telephony API
+
+	Telephony Manager 
+	Get Call State 
+	Call State BroadcastReceiver 
+	Simple Caller Talker 
+	Making Phone Call 
+	Send SMS 
+	Send Email 
+
+Location API
+
+	Location API Fundamental 
+	Example of Android Location API 
+	Working with Google Maps 
+
+Animation
+
+	Android Animation API 
+	Android Drawable class 
+	Android Animation Example 
+	Android Rotate Animation 
+	Android Fade Animation 
+	Android Zoom Animation 
+
+Device Connectivity
+
+	Bluetooth Tutorial 
+	List Paired Devices 
+	Working with WiFi 
+	Working with Camera 
+
+Sensor
+
+	Sensor API 
+	Motion Sensor 
+	Position Sensor 
+	Environmental Sensor 
+	Sensor Values 
+	SensorManager class 
+	Sensor Class 
+	SensorEvent class 
+	SensorEventListener interface 
+	Compass Acceslerometer and Orientation Sensors 
+	Sensor Examples 
+
+Android Graphics
+
+	Graphics API 
+	2D Graphics 
+	android.graphics.Canvas 
+	android.graphics.Paint class 
+
+Android P2P Communication
+
+	Introducing Instant Messaging 
+	Using the GTalk Service 
+	Monitoring the Roste for Changes
+	Sending and Receiving Data Messages 
+	Transmitting Data Messages 
+	Receiving Data Messages 
+
+Android Web Services
+
+	What is web service 
+	Soap Vs Restful web service 
+	Android Restful web service example with java servlet 
+	Storing data into external oracle database 
+	Verifying data in android with external oracle database 
+
+Android Google Map
+
+	Android Map V2 API 
+	Adding Map 
+	Customizing Map 
+	GoogleMap class 
+	Android Google Map Application 
