@@ -1,0 +1,12 @@
+ AlertDialog.Builder al=new AlertDialog.Builder(WebViewSampleActivity.this);
+                    al.setTitle("Error!!");
+                    al.setMessage("Username or password");
+                    al.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+                    al.setCancelable(false);
+                    AlertDialog alertDialog=al.create();
+                    alertDialog.show();
