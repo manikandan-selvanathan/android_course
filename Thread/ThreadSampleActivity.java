@@ -27,6 +27,7 @@ public class ThreadSampleActivity extends AppCompatActivity {
                 progressBar.setProgress(msg.arg1);
             }
         };
+        DoAsyncTask();
     }
 
 
@@ -73,6 +74,19 @@ public class ThreadSampleActivity extends AppCompatActivity {
                 }
             }).start();
         } catch (Exception e) {
+
+        }
+    }
+
+    void DoAsyncTask()
+    {
+        try{
+            SampleAsyncTask sampleAsyncTask=new SampleAsyncTask();
+            Integer value=sampleAsyncTask.execute().get();
+            Log.d("ValuesChanged","Sample : "+value);
+        }
+        catch (Exception e)
+        {
 
         }
     }
