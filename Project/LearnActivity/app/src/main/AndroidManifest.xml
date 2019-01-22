@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.facebook.www">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".ListViewExampele" />
+        <activity android:name=".ListViewSampleActivity" />
+        <activity android:name=".RecyclerViewCustomActivity" />
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".EditTextSample" />
+        <activity android:name=".SampleRelativeLayout" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".FragmentTestActivity" />
+        <activity android:name=".ConstrainLayoutSample" />
+        <activity android:name=".ExceptionHandlers" />
+        <activity android:name=".ThreadSampleActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".WebViewSampleActivity" />
+        <activity android:name=".FragmentSampleActivity" />
+        <activity android:name=".RecyclerViewSampleActivityTwo" />
+        <activity android:name=".WebAPIAccessActivity" />
+        <activity android:name=".ImplicitActivty" />
+        <activity android:name=".ViewPager.FragmentPagerActivity" />
+
+        <service
+            android:name=".Service.SampleService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ViewPagerAdapterExample" />
+        <activity android:name=".SQL.SQLLiteHelperActivity" />
+        <activity android:name=".ViewPager.FragmentActionTabActivity" />
+        <activity android:name=".Activty.ActivityOneSample" />
+        <activity android:name=".Activty.ActivityTwoSample" />
+        <activity android:name=".ViewPagerDecemberActivity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Location.LocationActivity" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SQL.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".GoogleMaps.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".NavigationDrawer.Main5Activity"
+            android:label="@string/title_activity_main5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawer.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Service.ServiceActivtiy" />
+
+        <service
+            android:name=".Service.SampleServiceClass"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".SharedPreferenceActivtyTwo" />
+        <activity android:name=".BundleSample.BundleActivity" />
+        <activity android:name=".BundleSample.BundleActivityTwo" />
+        <activity android:name=".Validation.LoginActivitySample" />
+        <activity android:name=".LaunchMode.LauncheModeBaseActivity" />
+        <activity android:name=".LaunchMode.LaunchModeActivity1" />
+        <activity
+            android:name=".LaunchMode.LaunchModeActivity2"
+            android:launchMode="singleInstance" />
+        <activity android:name=".LaunchMode.LaunchModeActivity3" />
+        <activity android:name=".LaunchMode.LaunchModeActivity4" />
+
+        <!-- <receiver -->
+        <!-- android:name=".BroadcastReceivers.BRReceiveMessage" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+
+
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <receiver
+            android:name=".BroadcastReceivers.BRReceiveMessage"
+            android:enabled="true" />
+
+        <activity android:name=".BroadcastReceivers.BRSampleActivity" />
+        <activity android:name=".SavedInstance.SavedInstanceSampleActivity" />
+        <activity android:name=".ThreadSample.ThreadSampleActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".AssetsFolder.AssetActivity" />
+        <activity android:name=".Intents.IntentSampleActivity" />
+        <activity android:name=".ViewPager.ViewPagerTitleStripActivity" />
+        <activity android:name=".SQL.SQLLiteSampleActivity"></activity>
+        <activity android:name=".ContentProvidersSample.ContentProviderSampleActivity">
+
+        </activity>
+        <activity android:name=".MenuSamples.MenuSampleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call_phone"
+        android:icon="@drawable/call_phone"
+        android:title="Call"
+        app:showAsAction="ifRoom">
+
+
+    </item>
+    <item
+        android:id="@+id/cast"
+        android:icon="@drawable/cast_image"
+        android:title="Cast"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/call_phone2"
+        android:icon="@drawable/call_phone"
+        android:title="Call 2"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sample_sub"
+                android:title="Sub"/>
+            <item
+                android:id="@+id/sample_sub_2"
+                android:title="Sub 2"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/cast2"
+        android:icon="@drawable/cast_image"
+        android:title="Cast 2"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/call_phone3"
+        android:icon="@drawable/call_phone"
+        android:title="Call 3"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/cast3"
+        android:icon="@drawable/cast_image"
+        android:title="Cast 3"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/call_phone4"
+        android:icon="@drawable/call_phone"
+        android:title="Call 4"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/cast4"
+        android:icon="@drawable/cast_image"
+        android:title="Cast 4"
+        app:showAsAction="ifRoom"/>
+</menu>
