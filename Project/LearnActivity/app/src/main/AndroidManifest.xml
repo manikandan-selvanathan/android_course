@@ -119,8 +119,16 @@
 
         <activity android:name=".BroadcastReceivers.BRSampleActivity" />
         <activity android:name=".SavedInstance.SavedInstanceSampleActivity" />
-        <activity android:name=".ThreadSample.ThreadSampleActivity" />
-        <activity android:name=".IntentActivity" />
+        <activity android:name=".ThreadSample.ThreadSampleActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntentActivity" >
+
+        </activity>
         <activity android:name=".AssetsFolder.AssetActivity" />
         <activity android:name=".Intents.IntentSampleActivity" />
         <activity android:name=".ViewPager.ViewPagerTitleStripActivity" />
@@ -129,11 +137,7 @@
 
         </activity>
         <activity android:name=".MenuSamples.MenuSampleActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
